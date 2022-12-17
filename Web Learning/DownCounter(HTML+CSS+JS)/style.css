@@ -1,0 +1,33 @@
+body{
+    background-color: cyan;
+    margin: 10%;
+    padding: 0%;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    overflow: hidden;
+    position: relative;
+}
+
+p{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    background-color: white;
+    border-top: 2px solid ;
+    text-align: center;
+}
+
+p.next{
+  
+    position: absolute;
+    top: 100px;
+}
+
+p.animate{
+    transition: all 0.5s;
+    top:0px;
+}

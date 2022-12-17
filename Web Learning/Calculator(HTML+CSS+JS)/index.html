@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./style.css">
+      
+
+     </head>
+
+    <body>
+        <div>
+            <table >
+                <tr>
+                    <td colspan="4">
+                    <div id="display-window">
+                        <text id="result-text"></text>
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                    <td><button onClick="clearText()">AC</button></td>
+                    <td><button>+/-</button></td>
+                    <td><button>%</button></td>
+                    <td class="operator-button"><button class="operator-button" onClick="operatorClicked('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick="valueClicked(7);" >7</button></td>
+                    <td><button onClick="valueClicked(8);">8</button></td>
+                    <td><button onClick="valueClicked(9);">9</button></td>
+                    <td class="operator-button"><button onClick="operatorClicked('*')" class="operator-button">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick="valueClicked(4);">4</button></td>
+                    <td><button onClick="valueClicked(5);">5</button></td>
+                    <td><button onClick="valueClicked(6);">6</button></td>
+                    <td class="operator-button"><button class="operator-button" onClick="operatorClicked('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick="valueClicked(1);">1</button></td>
+                    <td><button onClick="valueClicked(2);">2</button></td>
+                    <td><button onClick="valueClicked(3);">3</button></td>
+                    <td class="operator-button"><button class="operator-button" onClick="operatorClicked('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onClick="valueClicked(0);">0</button></td>
+                    <td><button onClick="valueClicked('.');">.</button></td>
+                    <td class="operator-button"><button class="operator-button" onClick="operatorClicked('=')">=</button></td>
+                </tr>
+            </table>
+        </div>
+
+
+        <script src="./script.js"></script>
+    </body>
+
+</html>

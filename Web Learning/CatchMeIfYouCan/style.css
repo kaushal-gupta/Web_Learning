@@ -1,0 +1,17 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#box{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    position: relative;
+   
+}
+
+#box p{
+    margin: 0px;
+    color: aliceblue;
+    text-align: center;
+}

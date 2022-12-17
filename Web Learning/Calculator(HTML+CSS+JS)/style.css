@@ -1,0 +1,54 @@
+body{
+   padding: 0;
+   margin: 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+
+td{
+    border-width: 2;
+    border-color: black;
+  
+    text-align: center;
+    height: 80px;
+    width: 90px;
+    border: 1px solid lightgray;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+button{
+    border: 0ch;
+    font-size: x-large;
+    height: 100%;
+    width: 100%;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.operator-button{
+    background-color: rgb(215, 83, 83);
+}
+
+
+
+#display-window{
+    height: 100px;
+    background-color:lightpink; 
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width:auto;
+}
+
+#result-text{
+    font-size: 60px;
+    color: blue;
+    padding-right: 5px;
+}
